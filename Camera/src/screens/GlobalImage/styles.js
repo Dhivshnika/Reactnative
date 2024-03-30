@@ -1,0 +1,85 @@
+import { StyleSheet } from "react-native";
+const styles = StyleSheet.create({
+    globalImageContainer: {
+        flex: 1,
+        backgroundColor: "#3E6975",
+        justifyContent: "center",
+        alignItems: "center"
+    },
+    globalImageText: {
+        textAlign: "center",
+        fontWeight: "600",
+        fontSize: 16,
+        marginTop: 20,
+        color: "#B7E5E4",
+        marginBottom: 20,
+    },
+    globalImageBox: {
+        width: 150,
+        height: 180,
+        flex: 0,
+        alignItems: "center",
+        justifyContent: "flex-end",
+        margin: 10,
+        borderRadius: 15,
+        overflow: 'hidden',
+    },
+    cameraOptions: {
+        backgroundColor: "#B7E5E4",
+        width: 250,
+        borderRadius: 25,
+        flexDirection: "row",
+        justifyContent: "space-between",
+        paddingLeft: 5,
+        paddingRight: 25,
+        fontSize: 16,
+        paddingTop: 3,
+        paddingBottom: 3,
+        alignItems: "center",
+        marginBottom: 180,
+    },
+    global: {
+        borderRadius: 20,
+        backgroundColor: "#F3AF8E",
+        color: "#3E6975",
+        paddingTop: 7,
+        paddingBottom: 7,
+        paddingLeft: 35,
+        paddingRight: 35,
+        fontWeight: "600",
+    },
+    closeup: {
+        color: "#3E6975",
+        fontWeight: "600",
+    },
+    side: {
+        marginTop: 20,
+        marginBottom: 20,
+        fontWeight: "600",
+    },
+    linearBox: {
+        flex: 1,
+        width: "100%",
+        alignItems: "center",
+        justifyContent: "flex-end",
+        gap: 13,
+    },
+    linearImage: {
+        width: 40,
+        height: 40,
+    },
+    uploadBox: {
+        backgroundColor: "#F3AF8E",
+        width: "85%",
+        paddingTop: 15,
+        paddingBottom: 15,
+        borderRadius: 5,
+        marginBottom: 20,
+    },
+    uploadText: {
+        color: "#3E6975",
+        fontSize: 16,
+        textAlign: "center",
+    },
+})
+export default styles;

@@ -1,0 +1,155 @@
+import { StyleSheet } from "react-native"
+const styles = StyleSheet.create({
+    mainContainer: {
+        backgroundColor: "#3E6975",
+        flex: 1,
+        paddingTop: 20,
+        alignItems: "center"
+    },
+    nameContainer: {
+        flex: 0,
+        flexDirection: "row",
+        justifyContent: "space-between",
+        width: 300,
+    },
+    nameContainerText: {
+        fontWeight: "400",
+        fontSize: 20,
+        color: "white",
+    },
+    endContainerText: {
+        color: "#3E6975",
+        fontSize: 15,
+    },
+    endContainer: {
+        backgroundColor: "#838383",
+        fontSize: 20,
+        paddingLeft: 25,
+        paddingRight: 25,
+        paddingTop: 7,
+        paddingBottom: 7,
+        borderRadius: 30,
+    },
+    cameraContainer: {
+        backgroundColor: "#B7E5E4",
+        height: 440,
+        width: 317,
+        marginTop: 20,
+        borderRadius: 20,
+        marginBottom: 15,
+        flex: 0,
+        alignItems: "center",
+    },
+    cameraOption: {
+        backgroundColor: "#B7E5E4",
+        width: 250,
+        borderRadius: 25,
+        flexDirection: "row",
+        justifyContent: "space-between",
+        paddingLeft: 5,
+        paddingRight: 25,
+        fontSize: 16,
+        paddingTop: 3,
+        paddingBottom: 3,
+        marginTop: 15,
+        alignItems: "center",
+        marginBottom: 15,
+    },
+    global: {
+        borderRadius: 20,
+        backgroundColor: "#F3AF8E",
+        color: "#3E6975",
+        paddingTop: 7,
+        paddingBottom: 7,
+        paddingLeft: 35,
+        paddingRight: 35,
+        fontWeight: "600",
+    },
+    closeup: {
+        color: "#3E6975",
+        fontWeight: "600",
+    },
+    scrollBar: {
+        paddingLeft: 10,
+        paddingRight: 10,
+        backgroundColor: "#1A3033",
+        marginTop: 15,
+        paddingTop: 20,
+        paddingBottom: 20,
+    },
+    scrollBarContainer: {
+        paddingRight: 10,
+        marginTop: 20,
+    },
+    scrollBarFront: {
+        paddingLeft: 10,
+        paddingRight: 10,
+        backgroundColor: "#1A3033",
+        marginTop: 15,
+        paddingTop: 20,
+        paddingBottom: 20,
+    },
+    scrollBarText: {
+        textAlign: "center",
+        paddingTop: 7,
+    },
+    container: {
+        flex: 1,
+        alignItems: 'center',
+        width: '70%',
+        marginTop: 20,
+    },
+    camera: {
+        width: '60%',
+        height: '100%',
+    },
+    captureButton: {
+        backgroundColor: "#F3AF8E",
+        padding: 30,
+        borderRadius: 50,
+        borderColor: 'rgba(243, 175, 142, 0.5)',
+        borderWidth: 5,
+        marginBottom: 20,
+        marginTop: 10,
+    },
+    capturedImageContainer: {
+        width: 317,
+        height: 440,
+        marginTop: 20,
+        borderRadius: 15
+    },
+    backgroundImage: {
+        width: 120,
+        height: 165,
+        flex: 1,
+        resizeMode: 'cover',
+        marginTop: 15,
+    },
+    containerBack: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
+    textBack: {
+        fontSize: 20,
+        fontWeight: '600',
+        color: 'white',
+    },
+    roundedLeft: {
+        borderTopLeftRadius: 10,
+    },
+    roundedRight: {
+        borderTopRightRadius: 10,
+    },
+    transperent: {
+        backgroundColor: '#3E6975',
+    },
+    linearBox: {
+        flex: 1,
+        width: "100%",
+        alignItems: "center",
+        justifyContent: "flex-end",
+        gap: 13,
+    },
+})
+export default styles
