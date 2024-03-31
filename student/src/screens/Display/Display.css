@@ -1,0 +1,72 @@
+.displayBoxContainer {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.instructor,
+.Enroll,
+.time,
+.location,
+.week,
+.topic,
+.content {
+    display: flex;
+    gap: 10px;
+    align-items: baseline;
+}
+
+.instructor span,
+.Enroll span,
+.time span,
+.descriptionText,
+.scheduleText,
+.requirements,
+.location span,
+.syllabus,
+.week span,
+.time span,
+.topic span,
+.contentText {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.instructor p,
+.descriptionAns,
+.Enroll p,
+.time p,
+.scheduleAns,
+.location p,
+li,
+.week p,
+.topic p,
+.contentAns {
+    color: rgb(45, 45, 108);
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.syllabusBox {
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: bisque;
+    border-radius: 10px;
+}
+
+.syllabusContainer {
+    display: flex;
+    gap: 20px;
+}
+
+.content p {
+    margin-top: 0px;
+}
+
+@media only screen and (max-width:768px) {
+    .syllabusContainer {
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-right: 20px;
+    }
+}
